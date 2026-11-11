@@ -1,0 +1,21 @@
+{
+  "backend": "none",
+  "workload": "drag-resize",
+  "repeat": 1,
+  "sample_seconds": 10,
+  "settle_seconds": 5,
+  "build": "release",
+  "render_delta": null,
+  "swap_delta": null,
+  "skipped_delta": null,
+  "cpu_seconds": null,
+  "max_rss_kb": null,
+  "wakeups": null,
+  "system_power_w": 7.04,
+  "gpu_busy_pct": 7.5,
+  "timing_cpu_ns": null,
+  "unavailable": [
+    "transparency rendered without composition (direct X11)"
+  ],
+  "elapsed_wall_s": 15.5
+}

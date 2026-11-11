@@ -1,0 +1,21 @@
+{
+  "backend": "picom",
+  "workload": "drag-resize",
+  "repeat": 1,
+  "sample_seconds": 10,
+  "settle_seconds": 5,
+  "build": "release",
+  "render_delta": null,
+  "swap_delta": null,
+  "skipped_delta": null,
+  "cpu_seconds": null,
+  "max_rss_kb": null,
+  "wakeups": null,
+  "system_power_w": null,
+  "gpu_busy_pct": null,
+  "timing_cpu_ns": null,
+  "unavailable": [
+    "picom binary is not installed on this system"
+  ],
+  "elapsed_wall_s": 0.0
+}

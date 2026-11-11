@@ -1,0 +1,11 @@
+{
+  "timestamp": 1794150515,
+  "duration_sec": 60,
+  "samples_count": 30,
+  "rss_initial_kb": 158412,
+  "rss_final_kb": 158436,
+  "rss_slope_kb_per_s": 0.5588,
+  "fd_delta": 0,
+  "total_swaps": 1286,
+  "clean_shutdown": true
+}

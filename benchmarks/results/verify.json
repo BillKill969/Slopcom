@@ -1,0 +1,28 @@
+{
+  "timestamp": 1794201869.9809756,
+  "display": ":1",
+  "binary": "./build/release/slopcom",
+  "tests": {
+    "selection_collision": {
+      "status": "pass",
+      "duration_sec": 0.13083696365356445
+    },
+    "start_stop_cycles": {
+      "status": "pass",
+      "cycles": 10,
+      "duration_sec": 1.1188817024230957
+    },
+    "fixture_scenarios": {
+      "status": "pass",
+      "duration_sec": 3.000011444091797
+    },
+    "scripted_churn": {
+      "status": "pass",
+      "duration_sec": 5.184131145477295
+    },
+    "i3_interactions": {
+      "status": "pass",
+      "duration_sec": 6.20862889289856
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "backend": "slopcom",
+  "workload": "empty-idle",
+  "repeat": 1,
+  "sample_seconds": 10,
+  "settle_seconds": 5,
+  "build": "release",
+  "render_delta": 0,
+  "swap_delta": 0,
+  "skipped_delta": 0,
+  "cpu_seconds": 0.0,
+  "max_rss_kb": 158744,
+  "wakeups": 0,
+  "system_power_w": 7.9,
+  "gpu_busy_pct": 9.0,
+  "timing_cpu_ns": {
+    "event_reconcile": {
+      "count": 4,
+      "p50": 24356,
+      "p95": 1773196,
+      "p99": 1773196
+    },
+    "draw": {
+      "count": 1,
+      "p50": 25178,
+      "p95": 25178,
+      "p99": 25178
+    },
+    "swap": {
+      "count": 1,
+      "p50": 5823623,
+      "p95": 5823623,
+      "p99": 5823623
+    }
+  },
+  "unavailable": [],
+  "elapsed_wall_s": 15.6
+}

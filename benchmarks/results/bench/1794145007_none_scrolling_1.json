@@ -1,0 +1,21 @@
+{
+  "backend": "none",
+  "workload": "scrolling",
+  "repeat": 1,
+  "sample_seconds": 1.5,
+  "settle_seconds": 0.5,
+  "build": "release",
+  "render_delta": null,
+  "swap_delta": null,
+  "skipped_delta": null,
+  "cpu_seconds": null,
+  "max_rss_kb": null,
+  "wakeups": null,
+  "system_power_w": 30.9,
+  "gpu_busy_pct": 8.0,
+  "timing_cpu_ns": null,
+  "unavailable": [
+    "transparency rendered without composition (direct X11)"
+  ],
+  "elapsed_wall_s": 2.5
+}

@@ -1,0 +1,27 @@
+{
+  "backend": "none",
+  "workload": "empty-idle",
+  "repeat": 1,
+  "sample_seconds": 1.5,
+  "settle_seconds": 0.5,
+  "build": "release",
+  "render_delta": null,
+  "swap_delta": null,
+  "skipped_delta": null,
+  "skipped_occluded_delta": null,
+  "full_repaints_delta": null,
+  "partial_repaints_delta": null,
+  "poll_wakeups_delta": null,
+  "x_round_trips_delta": null,
+  "cpu_seconds": null,
+  "max_rss_kb": null,
+  "context_switches": null,
+  "wakeups": null,
+  "system_power_w": 9.54,
+  "gpu_busy_pct": 8.8,
+  "timing_cpu_ns": null,
+  "unavailable": [
+    "transparency rendered without composition (direct X11)"
+  ],
+  "elapsed_wall_s": 2.5
+}

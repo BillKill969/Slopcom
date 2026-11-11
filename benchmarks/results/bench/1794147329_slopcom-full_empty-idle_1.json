@@ -1,0 +1,19 @@
+{
+  "backend": "slopcom-full",
+  "workload": "empty-idle",
+  "repeat": 1,
+  "sample_seconds": 3.0,
+  "settle_seconds": 1.0,
+  "build": "release",
+  "render_delta": null,
+  "swap_delta": null,
+  "skipped_delta": null,
+  "cpu_seconds": 0.0,
+  "max_rss_kb": 158460,
+  "wakeups": 0,
+  "system_power_w": 8.07,
+  "gpu_busy_pct": 10.2,
+  "timing_cpu_ns": null,
+  "unavailable": [],
+  "elapsed_wall_s": 4.5
+}

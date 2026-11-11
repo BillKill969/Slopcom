@@ -1,0 +1,88 @@
+[
+  {
+    "backend": "slopcom",
+    "workload": "empty-idle",
+    "repeat": 1,
+    "sample_seconds": 2.0,
+    "settle_seconds": 1.0,
+    "build": "release",
+    "render_delta": 0,
+    "swap_delta": 0,
+    "skipped_delta": 0,
+    "skipped_occluded_delta": 0,
+    "full_repaints_delta": 0,
+    "partial_repaints_delta": 0,
+    "poll_wakeups_delta": 0,
+    "x_round_trips_delta": 0,
+    "cpu_seconds": 0.0,
+    "max_rss_kb": 158356,
+    "memory_before": {
+      "schema_version": 1,
+      "kind": "process_memory",
+      "pid": 14840,
+      "source": "smaps_rollup",
+      "captured_unix_ns": 1794229928168097156,
+      "process_start_ticks": 632108,
+      "command": "./build/release/slopcom --stats :1",
+      "executable": "/home/marc/mine/slopcom/build/release/slopcom",
+      "rss_kib": 158348,
+      "pss_kib": 42494,
+      "private_rss_kib": 17220,
+      "shared_rss_kib": 141128,
+      "pss_anon_kib": 17092,
+      "pss_file_kib": 25398,
+      "pss_shmem_kib": 4,
+      "swap_kib": 0,
+      "private_hugetlb_kib": 0,
+      "mapping_groups": null,
+      "unavailable": []
+    },
+    "memory_after": {
+      "schema_version": 1,
+      "kind": "process_memory",
+      "pid": 14840,
+      "source": "smaps_rollup",
+      "captured_unix_ns": 1794229930178717637,
+      "process_start_ticks": 632108,
+      "command": "./build/release/slopcom --stats :1",
+      "executable": "/home/marc/mine/slopcom/build/release/slopcom",
+      "rss_kib": 158356,
+      "pss_kib": 42502,
+      "private_rss_kib": 17228,
+      "shared_rss_kib": 141128,
+      "pss_anon_kib": 17100,
+      "pss_file_kib": 25398,
+      "pss_shmem_kib": 4,
+      "swap_kib": 0,
+      "private_hugetlb_kib": 0,
+      "mapping_groups": null,
+      "unavailable": []
+    },
+    "context_switches": 0,
+    "wakeups": 0,
+    "system_power_w": 7.71,
+    "gpu_busy_pct": 9.2,
+    "timing_cpu_ns": {
+      "event_reconcile": {
+        "count": 4,
+        "p50": 13545,
+        "p95": 3298750,
+        "p99": 3298750
+      },
+      "draw": {
+        "count": 1,
+        "p50": 37791,
+        "p95": 37791,
+        "p99": 37791
+      },
+      "swap": {
+        "count": 1,
+        "p50": 5245940,
+        "p95": 5245940,
+        "p99": 5245940
+      }
+    },
+    "unavailable": [],
+    "elapsed_wall_s": 3.5
+  }
+]
